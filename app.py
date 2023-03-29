@@ -90,7 +90,7 @@ def main():
         nosave = True
         display_labels = True 
            
-    weights = r"weights/best.pt"
+    weights = r"./weights/best.pt"
     device="cpu"
 
 
