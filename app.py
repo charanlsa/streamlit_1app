@@ -90,7 +90,7 @@ def main():
         nosave = True
         display_labels = True 
            
-    weights = r"C:\Users\renis\Documents\Streamlit\weights.pt"
+    weights = r"weights.pt"
     device="cpu"
 
 
