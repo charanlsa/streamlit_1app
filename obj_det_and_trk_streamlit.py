@@ -63,7 +63,7 @@ def draw_boxes(img, bbox, identities=None, categories=None, names=None,offset=(0
 
 
 @torch.no_grad()
-def detect(weights=ROOT / 'weights.pt',
+def detect(weights=ROOT / 'weights/best.pt',
         source=ROOT / 'yolov5/data/images', 
         data=ROOT / 'yolov5/data/coco128.yaml',  
         stframe=None,
