@@ -90,7 +90,7 @@ def main():
         nosave = True
         display_labels = True 
            
-    weights = r"C:\Users\renis\Downloads\yolov5-object-tracking-main\weights.pt"
+    weights = r"C:\Users\renis\Documents\Streamlit\weights.pt"
     device="cpu"
 
 
