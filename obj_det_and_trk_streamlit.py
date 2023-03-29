@@ -128,7 +128,7 @@ def detect(weights=ROOT / 'weights/best.pt',
 
     if webcam:
         cudnn.benchmark = True  
-        dataset = LoadStreams(source, img_size=imgsz, stride=stride, auto=pt)
+        dataset = LoadStreams(source, img_size=imgsz, stride=stride, auto=pt, vid_stride=vid_stride)
         bs = len(dataset) 
     else:
         dataset = LoadImages(source, img_size=imgsz, stride=stride, auto=pt)
