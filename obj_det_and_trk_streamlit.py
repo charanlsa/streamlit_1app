@@ -10,7 +10,7 @@ from pathlib import Path
 from collections import Counter
 import torch.backends.cudnn as cudnn
 from utils.general import set_logging
-from models.common import DetectMultiBackend
+from models.common import
 from utils.dataloaders import IMG_FORMATS, VID_FORMATS, LoadImages, LoadStreams
 from utils.general import (LOGGER, Profile, check_file, check_img_size, check_imshow, check_requirements, colorstr, cv2,
                            increment_path, non_max_suppression, print_args, scale_coords, strip_optimizer, xyxy2xywh)
